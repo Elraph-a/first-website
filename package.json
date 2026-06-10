@@ -1,0 +1,14 @@
+{
+  "name": "compass-data-solutions-site",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Compass Data Solutions marketing site",
+  "scripts": {
+    "serve": "node serve.mjs",
+    "shot": "node screenshot.mjs http://localhost:3000"
+  },
+  "dependencies": {
+    "puppeteer-core": "^25.1.0"
+  }
+}

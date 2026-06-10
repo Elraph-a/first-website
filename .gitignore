@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+
+# Local dev artifacts
+temporary screenshots/
+.tmp/
+
+# Reference image (third-party template screenshot, not part of the site)
+crafto.themezaa.com_corporate_.png
+
+# Local agent instructions (keep workflow/paths private)
+CLAUDE.md
+
+# Secrets — never commit these
+.env
+.env.*
+*.env
+credentials.json
+token.json
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.*
+*.secret
+
+# OS / editor
+Thumbs.db
+.DS_Store
